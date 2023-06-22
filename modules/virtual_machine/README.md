@@ -1,0 +1,1 @@
+# Virtual machine module used for the creation of VMs in vSphere
