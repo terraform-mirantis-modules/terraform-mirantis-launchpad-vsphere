@@ -11,20 +11,25 @@ variable "vsphere_password" {
 }
 
 variable "datacenter" {
-  default = ""
+  default     = ""
+  description = "Datacenter to deploy resources in"
 }
 
 variable "resource_pool" {
+  description = "Resource pool to deploy resources in"
 }
 
 variable "folder" {
-  default = ""
+  default     = ""
+  description = "Folder to deploy resources in"
 }
 
 variable "datastore_cluster" {
+  description = "Datastore cluster to deploy resources in"
 }
 
 variable "network" {
+  description = "Network to deploy resources in"
 }
 
 variable "template_vm_linux" {
